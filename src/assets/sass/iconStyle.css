@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../font/icomoon.eot?5irso2');
+  src:  url('../font/icomoon.eot?5irso2#iefix') format('embedded-opentype'),
+  url('../font/icomoon.ttf?5irso2') format('truetype'),
+  url('../font/icomoon.woff?5irso2') format('woff'),
+  url('../font/icomoon.svg?5irso2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-building:before {
+  content: "\e91b";
+}
+.icon-fw:before {
+  content: "\e922";
+}
+.icon-village:before {
+  content: "\e923";
+}
+.icon-leftBot:before {
+  content: "\e91c";
+}
+.icon-leftTop:before {
+  content: "\e91d";
+}
+.icon-list:before {
+  content: "\e91e";
+}
+.icon-refresh:before {
+  content: "\e91f";
+}
+.icon-rightBot:before {
+  content: "\e920";
+}
+.icon-rightTop:before {
+  content: "\e921";
+}
+.icon-v4:before {
+  content: "\e900";
+}
+.icon-all:before {
+  content: "\e901";
+}
+.icon-car:before {
+  content: "\e902";
+}
+.icon-car1:before {
+  content: "\e903";
+}
+.icon-cars:before {
+  content: "\e904";
+}
+.icon-company:before {
+  content: "\e905";
+}
+.icon-doorGuard:before {
+  content: "\e906";
+}
+.icon-fjdc:before {
+  content: "\e907";
+}
+.icon-house:before {
+  content: "\e908";
+}
+.icon-jkxj:before {
+  content: "\e909";
+}
+.icon-menjin:before {
+  content: "\e90a";
+}
+.icon-people:before {
+  content: "\e90b";
+}
+.icon-people2:before {
+  content: "\e90c";
+}
+.icon-pos:before {
+  content: "\e90d";
+}
+.icon-power:before {
+  content: "\e90e";
+}
+.icon-psw:before {
+  content: "\e90f";
+}
+.icon-RFID:before {
+  content: "\e910";
+}
+.icon-rlxj:before {
+  content: "\e911";
+}
+.icon-security:before {
+  content: "\e912";
+}
+.icon-sos:before {
+  content: "\e913";
+}
+.icon-user:before {
+  content: "\e914";
+}
+.icon-v1:before {
+  content: "\e915";
+}
+.icon-v9:before {
+  content: "\e916";
+}
+.icon-wifi:before {
+  content: "\e917";
+}
+.icon-wi-fi:before {
+  content: "\e918";
+}
+.icon-xingren:before {
+  content: "\e919";
+}
+.icon-yj:before {
+  content: "\e91a";
+}

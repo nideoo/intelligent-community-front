@@ -1,0 +1,364 @@
+{
+  "memberTJ": [
+    {
+      "name": "东方锦苑",
+      "number": 345
+    },
+    {
+      "name": "同济欣园",
+      "number": 543
+    },
+    {
+      "name": "书香银苑",
+      "number": 542
+    },
+    {
+      "name": "三门路555弄",
+      "number": 654
+    },
+    {
+      "name": "幸之怨",
+      "number": 567
+    },
+    {
+      "name": "军休新苑",
+      "number": 765
+    },
+    {
+      "name": "淞南四村",
+      "number": 573
+    }
+  ],
+  "peopleBL": [
+    {
+      "name": "东方锦苑",
+      "fb": [
+        {
+          "name": "本省",
+          "num": "1097"
+        },
+        {
+          "name": "本市",
+          "num": "896"
+        },
+        {
+          "name": "外省",
+          "num": "1764"
+        }
+      ]
+    },
+    {
+      "name": "同济新苑",
+      "fb": [
+        {
+          "name": "本省",
+          "num": "1097"
+        },
+        {
+          "name": "本市",
+          "num": "896"
+        },
+        {
+          "name": "外省",
+          "num": "1764"
+        }
+      ]
+    },
+    {
+      "name": "书香银苑",
+      "fb": [
+        {
+          "name": "本省",
+          "num": "1097"
+        },
+        {
+          "name": "本市",
+          "num": "896"
+        },
+        {
+          "name": "外省",
+          "num": "1764"
+        }
+      ]
+    },
+    {
+      "name": "三门路555弄",
+      "fb": [
+        {
+          "name": "本省",
+          "num": "1097"
+        },
+        {
+          "name": "本市",
+          "num": "896"
+        },
+        {
+          "name": "外省",
+          "num": "1764"
+        }
+      ]
+    },
+    {
+      "name": "淞南四村",
+      "fb": [
+        {
+          "name": "本省",
+          "num": "1097"
+        },
+        {
+          "name": "本市",
+          "num": "896"
+        },
+        {
+          "name": "外省",
+          "num": "1764"
+        }
+      ]
+    }
+  ],
+  "gzMember": [
+    {
+      "name": "困难户",
+      "code": 1,
+      "number": 10
+    },
+    {
+      "name": "残疾人员",
+      "code": 2,
+      "number": 20
+    },
+    {
+      "name": "外籍人员",
+      "code": 3,
+      "number": 40
+    },
+    {
+      "name": "孤寡老人",
+      "code": 4,
+      "number": 15
+    },
+    {
+      "name": "精神病人",
+      "code": 5,
+      "number": 15
+    }
+  ],
+  "sexMember": [
+    {
+      "name": "男",
+      "value": 70
+    },
+    {
+      "name": "女",
+      "value": 30
+    }
+  ],
+  "czMember": [
+    {
+      "name": "户籍人口",
+      "code": 1,
+      "number": 200
+    },
+    {
+      "name": "流动人口",
+      "code": 2,
+      "number": 300
+    },
+    {
+      "name": "境外人口",
+      "code": 3,
+      "number": 500
+    }
+  ],
+  "xlMember": [
+    {
+      "name": "专科以下",
+      "code": 4,
+      "number": 40
+    },
+    {
+      "name": "专科",
+      "code": 3,
+      "number": 201
+    },
+    {
+      "name": "本科",
+      "code": 2,
+      "number": 121
+    },
+    {
+      "name": "研究生及以上",
+      "code": 1,
+      "number": 101
+    }
+  ],
+  "ageMember": [
+    {
+      "name": "幼年",
+      "code": 1,
+      "number": 69
+    },
+    {
+      "name": "少年",
+      "code": 2,
+      "number": 110
+    },
+    {
+      "name": "青年",
+      "code": 3,
+      "number": 168
+    },
+    {
+      "name": "中年",
+      "code": 4,
+      "number": 194
+    },
+    {
+      "name": "老年",
+      "code": 5,
+      "number": 99
+    }
+  ],
+  "keyMember": [
+    {
+      "name": "传销人员",
+      "value": 20
+    },
+    {
+      "name": "涉毒人员",
+      "value": 30
+    },
+    {
+      "name": "涉稳人员",
+      "value": 15
+    },
+    {
+      "name": "偷盗人员",
+      "value": 20
+    },
+    {
+      "name": "上访人员",
+      "value": 20
+    },
+    {
+      "name": "涉恐人员",
+      "value": 30
+    }
+  ],
+  "house": [
+    {
+      "name": "东方锦苑",
+      "number": 345
+    },
+    {
+      "name": "同济欣园",
+      "number": 543
+    },
+    {
+      "name": "书香银苑",
+      "number": 542
+    },
+    {
+      "name": "三门路555弄",
+      "number": 654
+    },
+    {
+      "name": "幸之怨",
+      "number": 567
+    },
+    {
+      "name": "军休新苑",
+      "number": 765
+    },
+    {
+      "name": "淞南四村",
+      "number": 573
+    }
+  ],
+  "house_jzmd": [
+    {
+      "name": "独居",
+      "number": 345
+    },
+    {
+      "name": "两人",
+      "number": 200
+    },
+    {
+      "name": "三人",
+      "number": 567
+    },
+    {
+      "name": "四人",
+      "number": 453
+    },
+    {
+      "name": "更多",
+      "number": 189
+    }
+  ],
+  "house_fwdj":[
+    {
+      "name": "已登记",
+      "value": 1567
+    },
+    {
+      "name": "未登记",
+      "value": 1000
+    }
+  ],
+  "house_jzqk": [
+    {
+      "name": "自住",
+      "number": 345
+    },
+    {
+      "name": "出租",
+      "number": 200
+    },
+    {
+      "name": "空闲",
+      "number": 567
+    },
+    {
+      "name": "其他",
+      "number": 453
+    }
+  ],
+  "house_hxfx": [
+    {
+      "name": "90平以下",
+      "number": 345
+    },
+    {
+      "name": "90-140平",
+      "number": 200
+    },
+    {
+      "name": "140平以上",
+      "number": 567
+    }
+  ],
+  "house_num": {
+    "list":[
+      {
+        "name": "小区数量",
+        "number": 345
+      },
+      {
+        "name": "楼栋单元数",
+        "number": 200
+      },
+      {
+        "name": "房屋数",
+        "number": 567
+      }
+    ],
+    "checkedIn":[
+      {
+        "name":"入住",
+        "number":800
+      }
+    ]
+  }
+}

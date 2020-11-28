@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>My WebSocket</title>
+</head>
+
+<body>
+Welcome<br/>
+<input id="text" type="text" /><button onclick="send()">Send</button>    <button onclick="closeWebSocket()">Close</button>
+<div id="message">
+</div>
+</body>
+
+<script type="text/javascript">
+    var websocket = null;
+
+   var  wsuri = "ws://47.103.46.142:8080/kafka-index-websocket";
+    // //判断当前浏览器是否支持WebSocket
+    if ('WebSocket' in window) {
+        websocket = new WebSocket(wsuri);//这里面的this都指向vue
+    }
+    else {
+        alert('Not support websocket')
+    }
+
+    //�жϵ�ǰ������Ƿ�֧��WebSocket
+
+    //���ӷ�������Ļص�����
+    websocket.onerror = function(){
+        setMessageInnerHTML("error");
+    };
+
+    //���ӳɹ������Ļص�����
+    websocket.onopen = function(event){
+        setMessageInnerHTML("open");
+    }
+
+    //���յ���Ϣ�Ļص�����
+    websocket.onmessage = function(event){
+        console.log(event);
+        setMessageInnerHTML(event.data);
+    }
+
+    //���ӹرյĻص�����
+    websocket.onclose = function(){
+        setMessageInnerHTML("close");
+    }
+
+    //�������ڹر��¼��������ڹر�ʱ������ȥ�ر�websocket���ӣ���ֹ���ӻ�û�Ͽ��͹رմ��ڣ�server�˻����쳣��
+    window.onbeforeunload = function(){
+        websocket.close();
+    }
+
+    //����Ϣ��ʾ����ҳ��
+    function setMessageInnerHTML(innerHTML){
+
+        document.getElementById('message').innerHTML += innerHTML + '<br/>';
+    }
+
+    //�ر�����
+    function closeWebSocket(){
+        websocket.close();
+    }
+
+    //������Ϣ
+    function send(){
+        var message = document.getElementById('text').value;
+        websocket.send(message);
+    }
+</script>
+</html>

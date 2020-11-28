@@ -1,0 +1,154 @@
+.table-content {
+  margin: 10px 20px;
+  .el-table {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-top: 1px solid #175e9b;
+    font-size: 14px;
+    &:before, &:after {
+      height: 0;
+      width: 0;
+    }
+    .el-table__body,.el-table__header{
+      width: auto !important;
+      .gutter{
+        display: block !important;
+      }
+    }
+    th, tr {
+      background: transparent;
+      color: #fff;
+      text-align: center;
+    }
+    th {
+      background: #1d293c;
+      font-weight: normal;
+    }
+    tr:nth-of-type(even) {
+      background: #1d293c;
+    }
+    tr:nth-of-type(odd) {
+      background: #012553;
+    }
+    tr {
+      th, td {
+        border: 0;
+        padding: 0;
+        border-bottom: 1px solid #175e9b;
+        height: 6vh;
+        .cell, div {
+          padding: 0;
+          line-height: normal;
+          -webkit-box-sizing: initial;
+          box-sizing: initial;
+        }
+        &:first-child {
+          border-left: 1px solid #175e9b;
+        }
+        &:last-child {
+          border-right: 1px solid #175e9b;
+        }
+      }
+    }
+  }
+  .el-table--enable-row-hover .el-table__body tr:hover > td {
+    background: rgba(38, 87, 115, 0.35);
+  }
+  //vue项目的时候页面处理多行文本样式时用到了-webkit-box-orient: vertical这个属性，本地跑项目没问题，但是打包放到服务器后发现这个属性丢失了。
+  // 发现可能是optimize-css-assets-webpack-plugin这个插件的问题，其实解决办法很简单，只需要在这个属性前后加一个特殊注释即可
+  td {
+    text-align: center;
+    .cell {
+      margin: 1vh 0;
+      max-height: 10vh;
+      text-align: center;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+     /*! autoprefixer: off */
+      -webkit-box-orient: vertical;
+      /* autoprefixer: on */
+      p {
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+.pagination {
+  padding: 15px 0;
+  @mixin pageBtn {
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    min-width: 38px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #2b69c8;
+    -moz-box-shadow: 0 0 0.5vw #3e89fd inset; /* For Firefox3.6+ */
+    -webkit-box-shadow: 0 0 0.5vw #3e89fd inset; /* For Chrome5+, Safari5+ */
+    box-shadow: 0 0 0.5vw #3e89fd inset; /* For Latest Opera */
+    margin: 0 0.3vw;
+    font-weight: normal;
+    border-radius: 2px;
+  }
+  .el-pagination {
+    color: #fff;
+    button {
+      @include pageBtn;
+      padding: 0 !important;
+      &:disabled {
+        cursor: not-allowed;
+        color: #66b1ff;
+      }
+    }
+    .el-pager {
+      .more:before {
+        line-height: normal;
+      }
+      li {
+        @include pageBtn;
+        padding: 0;
+        &.active {
+          background-color:#00cbed;
+          background-image:-webkit-linear-gradient(top,#017fff,#00cbed);
+          background-image:-o-linear-gradient(top,#017fff,#00cbed);
+          background-image:-ms-linear-gradient(top,#017fff,#00cbed);
+          background-image:linear-gradient(to top,#017fff,#00cbed);
+          background-repeat: repeat-x;
+        }
+      }
+    }
+    span {
+      font-size: 14px;
+      color: #fff;
+    }
+    span:not([class*=suffix]) {
+      height: 28px;
+      line-height: 28px;
+      width: 28px;
+      width: auto;
+    }
+    .el-pagination__total {
+      margin-right: 16px;
+      height: 28px;
+      line-height: 28px;
+      width: 28px;
+    }
+    .el-pagination__jump {
+      margin-left: 20px;
+      .el-pagination__editor.el-input {
+        width: 28px;
+        margin-right:  15px;
+      }
+      .el-input__inner {
+        padding: 0;
+        @include pageBtn;
+        margin: 0;
+      }
+    }
+  }
+}

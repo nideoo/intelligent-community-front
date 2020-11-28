@@ -1,0 +1,233 @@
+{
+  "jcxxTree": [
+    {
+      "label": "嘉陵区",
+      "node": "area",
+      "images": "../../../../static/images/map/1.png",
+      "children": [
+        {
+          "label": "火花街道",
+          "node": "street",
+          "images": "../../../../static/images/map/2.png",
+          "children": [
+            {
+              "label": "东方锦苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm",
+              "children": [
+                {
+                  "label": "1栋",
+                  "node": "building",
+                  "floor":7,
+                  "num": 2
+                }
+              ]
+            },
+            {
+              "label": "同济新苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm",
+              "children": [
+                {
+                  "label": "2栋",
+                  "node": "building",
+                  "floor":17,
+                  "num": 4
+                }
+              ]
+            },
+            {
+              "label": "书香银苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm"
+            }
+          ]
+        },
+        {
+          "label": "都尉街道",
+          "node": "street",
+          "images": "../../../../static/images/map/4.png",
+          "children": [
+            {
+              "label": "三门路555弄",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm"
+            },
+            {
+              "label": "星之原",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm"
+            },
+            {
+              "label": "军休新苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm"
+            }
+          ]
+        },
+        {
+          "label": "凤垭街道",
+          "node": "street",
+          "images": "../../../../static/images/map/3.png",
+          "children": [
+            {
+              "label": "东方锦苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm",
+              "children": [
+                {
+                  "label": "1栋",
+                  "node": "building",
+                  "floor":6,
+                  "num": 2
+                }
+              ]
+            },
+            {
+              "label": "同济新苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm",
+              "children": [
+                {
+                  "label": "7栋",
+                  "node": "building",
+                  "floor":3,
+                  "num": 4
+                }
+              ]
+            },
+            {
+              "label": "淞南四村北区",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm"
+            }
+          ]
+        },
+        {
+          "label": "文峰街道",
+          "node": "street",
+          "images": "../../../../static/images/map/5.png",
+          "children": [
+            {
+              "label": "东方锦苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm",
+              "children": [
+                {
+                  "label": "3栋",
+                  "node": "building",
+                  "floor":7,
+                  "num": 3
+                }
+              ]
+            },
+            {
+              "label": "同济新苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm",
+              "children": [
+                {
+                  "label": "9栋",
+                  "node": "building",
+                  "floor":7,
+                  "num": 1
+                }
+              ]
+            },
+            {
+              "label": "淞南四村北区",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm"
+            }
+          ]
+        },
+        {
+          "label": "西兴街道",
+          "node": "street",
+          "images": "../../../../static/images/map/6.png",
+          "children": [
+            {
+              "label": "东方锦苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm",
+              "children": [
+                {
+                  "label": "9栋",
+                  "node": "building",
+                  "floor":5,
+                  "num": 2
+                }
+              ]
+            },
+            {
+              "label": "同济新苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm",
+              "children": [
+                {
+                  "label": "9栋",
+                  "node": "building",
+                  "floor":7,
+                  "num": 3
+                }
+              ]
+            },
+            {
+              "label": "淞南四村北区",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm"
+            }
+          ]
+        },
+        {
+          "label": "南湖街道",
+          "node": "street",
+          "images": "../../../../static/images/map/7.png",
+          "children": [
+            {
+              "label": "东方锦苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm",
+              "children": [
+                {
+                  "label": "1单元",
+                  "children": [
+                    {
+                      "label": "9栋",
+                      "node": "building",
+                      "floor":6,
+                      "num": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "同济新苑",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm",
+              "children": [
+                {
+                  "label": "5单元",
+                  "children": [
+                    {
+                      "label": "9栋",
+                      "node": "building",
+                      "floor":7,
+                      "num": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "淞南四村北区",
+              "images": "../../../../static/images/map/comm.jpg",
+              "node": "comm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

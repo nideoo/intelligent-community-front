@@ -1,0 +1,302 @@
+.homepage{
+  width: 100%;
+  height: 100%;
+  .home-content{
+    pointer-events: none;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    top: 75px;
+    .el-aside{
+      pointer-events: auto;
+      width: 20% !important;
+      min-width: 285px;
+      max-width: 350px;
+      position: relative;
+      margin:0 8px ;
+      .sideBar{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        .side-item{
+          width: 100%;
+          position: relative;
+          .side-item-info{
+            position: absolute;
+            top: 12px;
+            left: 15px;
+            right: 15px;
+            bottom: 12px;
+          }
+        }
+        .house-item{
+          .house-icon{
+            width: 75px;
+            height: 75px;
+            margin-right: 10px;
+            margin-left: -15%;
+            img{
+              width: 100%;
+            }
+          }
+          .house-label{
+            font-size: 12px;
+          }
+        }
+        .housefx-item{
+          li{
+            width: 30%;
+            height: 100%;
+            max-width: 90px;
+            font-size: 12px;
+            text-align: center;
+            color: #fff;
+            .number{
+              font-size: 18px;
+            }
+            &:nth-child(1){
+              .number{
+                color: #00e1ff;
+              }
+            }
+            &:nth-child(2){
+              .number{
+                color: #aceaff;
+              }
+            }
+            &:nth-child(3){
+              .number{
+                color: #f3cf4b;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .side-bottom{
+    .bot-marquee{
+      height: 120px;
+      overflow: hidden;
+    }
+    .bot-marquee-box{
+      height: 120px;
+      overflow: hidden;
+      position: relative;
+
+    }
+    .marquee_top {
+      transition: all 0.8s;
+      margin-top: -40px;
+    }
+    .bot-content{
+      font-weight: normal;
+      font-size: 12px;
+      li{
+        margin: 4px 18px;
+        height: 36px;
+        cursor: pointer;
+        span{
+          line-height: 36px;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+          &:before{
+            content: '';
+            width: 2px;
+            height: 2px;
+            background: #fff;
+          }
+        }
+      }
+      .bot-comm{
+        text-align: left;
+      }
+      .bot-plateNo{
+        width: 65px;
+      }
+      .bot-name{
+        width: 65px;
+      }
+      .bot-photo{
+        width: 55px;
+        height: 36px;
+        overflow: hidden;
+        text-align: right;
+        img{
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+  }
+  #mapContainter {
+    height: 100%;
+    width: 100%;
+  }
+  .side-item {
+    height: 25%;
+    background: url("../../../static/images/itembg.png") center center no-repeat;
+    background-size: 100% 100%;
+    .housefx-item{
+      li{
+        background: url("../../../static/img/number-bg.png") center center no-repeat;
+        background-size: 100%;
+      }
+    }
+  }
+
+  .people-item {
+    margin-left: 15px;
+    li {
+      .sub-label {
+        background: url("../../../static/img/title-icon.png") left center no-repeat;
+        background-size: 110px;
+        width: 110px;
+        margin-right: 10px;
+        height: 36px;
+        text-indent: 12px;
+        line-height: 44px;
+        font-size: 12px;
+      }
+      .number {
+        border: 0;
+        background: transparent;
+        color: #fff;
+        outline: 0;
+        font-size: 18px;
+        font-weight: bolder;
+        line-height: 36px;
+        &.total-number{
+          color: #f3cf4b;
+        }
+        &.sub-number{
+          color: #aceaff;
+        }
+        span{
+          color: #fff;
+          font-weight: normal;
+          font-size: 12px;
+        }
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+  }
+
+  .side-bottom {
+    position: relative;
+    .side-bottom-item{
+      pointer-events: auto;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 180px;
+      background: url("../../../static/img/bottom-bg.png") center center no-repeat;
+      -webkit-background-size: 100% 100%;
+      background-size: 100% 100%;
+      .el-col {
+        height: 100%;
+        position: relative;
+        padding: 10px;
+        &+.el-col{
+          &:before{
+            position: absolute;
+            left: 0;
+            top: 0;
+            content: "";
+            width: 8px;
+            height: 100%;
+            background: url("../../../static/img/split-line.png") center center no-repeat;
+            background-size: 100% 100%;
+          }
+        }
+      }
+      .side-bottom-car{
+        position: relative;
+        span{
+          text-indent: 15px;
+          display: inline-block;
+        }
+        &:before{
+          position: absolute;
+          top: 2px;
+          left: -8px;
+          content: '';
+          width: 15px;
+          height: 30px;
+          background: url("../../../static/img/warning-icon.png") left center no-repeat;
+          background-size: 100%;
+        }
+      }
+    }
+
+  }
+}
+.humanVehicle-detail-page{
+  .humanVehicle-detail-aside{
+    position: relative;
+    padding-right: 8px;
+    &:after{
+      position: absolute;
+      right: 0;
+      top: 0;
+      content: "";
+      width: 8px;
+      height: 100%;
+      background: url("../../../static/img/modal/split-line.png") center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .humanVehicle-detail-aside-list{
+      li{
+        font-size: 14px;
+        margin: 8px;
+        color: #e4e7ed;
+        .sub-name{
+          display: inline-block;
+          width: 72px;
+          margin-right: 8px;
+          text-align: right;
+        }
+        .sub-label{
+          position: relative;
+          &.sub-label-point{
+            text-indent: 25px;
+            display: inline-block;
+          }
+        }
+        .sub-label-icon{
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          width: 22px;
+          height: 22px;
+          display: inline-block;
+          background: url("../../../static/img/modal/icon.png") center bottom no-repeat;
+          background-size: 100%;
+        }
+      }
+    }
+  }
+  .humanVehicle-detail-main{
+    padding-left: 8px;
+    overflow: hidden;
+    .humanVehicle-detail-imgs{
+      width: 200px;
+      height: 100%;
+      margin: 0 auto;
+      img{
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+}

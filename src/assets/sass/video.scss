@@ -1,0 +1,110 @@
+.videoMonitor{
+  height: 100%;
+  .videoMonitor-main{
+    width: 100%;
+    margin: 8px;
+    .videoMonitor-main-content{
+      background: url("../../../static/img/video/video-bg.png") center center no-repeat;
+      background-size: 100% 100%;
+      overflow: hidden;
+      .videoMonitor-main-snap{
+        height: 180px !important;
+      }
+    }
+    .videoMonitor-main-top{
+      height: auto !important;
+      margin-bottom: 8px;
+      .btns{
+        padding: 8px 10px;
+        min-width: 80px;
+        color: #fff;
+        background: url("../../../static/images/icon/btn.png") center center no-repeat;
+        background-size: 100% 100%;
+        border: 0;
+        cursor: pointer;
+        &:hover{
+          background: url("../../../static/images/icon/btn1.jpg") center center no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+    .videoMonitor-main-video{
+      margin: 5px 0;
+      .video-box{
+        width: auto;
+        margin: 0 auto;
+        //border: 1px solid #2964bd;
+        //box-shadow: 0 0 6px 2px #2964bd inset;
+        border-radius: 5px;
+        height: 100%;
+        text-align: center;
+      }
+      img{
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+      }
+    }
+    .videoMonitor-main-snap{
+      height: 180px;
+      .snap-info{
+        height: 100%;
+      }
+      .snap-icon{
+        width: 100px;
+        text-align: center;
+        .snap-icon-img{
+          width: 100%;
+          height: 50px;
+          img{
+            max-height: 100%;
+            max-width: 100%;
+          }
+        }
+      }
+      .snap-list{
+        width: 100%;
+        height: 100%;
+        .snap-img{
+          height: 140px;
+          width: 140px;
+          margin: 0 auto;
+          position: relative;
+          .icon{
+            position: absolute;
+            color: #00cbed;
+            &.icon-leftTop{
+              left: -2px;
+              top: -2px;
+            }
+            &.icon-leftBot{
+              left: -2px;
+              bottom: -2px;
+            }
+            &.icon-rightTop{
+              right: -2px;
+              top: -2px;
+            }
+            &.icon-rightBot{
+              right: -2px;
+              bottom: -2px;
+            }
+          }
+          img{
+            width: 100%;
+            max-width: 100%;
+            max-height: 100%;
+            position: relative;
+            z-index: -1;
+          }
+        }
+        .snap-word{
+          font-size: 12px;
+          font-weight: normal;
+          text-align: center;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

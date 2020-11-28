@@ -1,0 +1,103 @@
+{
+  "selfDeclaration": [
+    {
+      "id": 1,
+      "name": "王杰希",
+      "img": "../../../../static/images/photo/person1.jpg",
+      "address": "玉田小区20栋502"
+    },
+    {
+      "id": 2,
+      "name": "张佳乐",
+      "img": "../../../../static/images/photo/person2.jpg",
+      "address": "嘉泰花园20栋502"
+    },
+    {
+      "id": 3,
+      "name": "孙哲平",
+      "img": "../../../../static/images/photo/person3.jpg",
+      "address": "玉兰香苑09栋302"
+    },
+    {
+      "id": 4,
+      "name": "肖时钦",
+      "img": "../../../../static/images/photo/person3.jpg",
+      "address": "金秋花园09栋302"
+    }
+  ],
+  "humanVehicle": [
+    {
+      "id": 1,
+      "name": "楚云秀",
+      "img": "../../../../static/images/photo/car1.jpeg",
+      "plateNo": "豫D87646"
+    },
+    {
+      "id": 2,
+      "name": "肖时钦",
+      "img": "../../../../static/images/photo/car2.jpeg",
+      "plateNo": "沪A87646"
+    },
+    {
+      "id": 3,
+      "name": "张新杰",
+      "img": "../../../../static/images/photo/car3.jpg",
+      "plateNo": "滇B87646"
+    },
+    {
+      "id": 4,
+      "name": "韩文清",
+      "img": "../../../../static/images/photo/car3.jpg",
+      "plateNo": "滇B87646"
+    },
+    {
+      "id": 5,
+      "name": "赵杨",
+      "img": "../../../../static/images/photo/car3.jpg",
+      "plateNo": "浙B87646"
+    }
+  ],
+  "warningInformation": [
+    {
+      "id": 1,
+      "mark": 1,
+      "name": "韩文清",
+      "img": "../../../../static/images/photo/person3.jpg",
+      "address": "玉兰香苑09栋302"
+    },
+    {
+      "id": 2,
+      "mark": 2,
+      "name": "喻文州",
+      "img": "../../../../static/images/photo/car1.jpeg",
+      "address": "华夏09栋302"
+    },
+    {
+      "id": 3,
+      "mark": 2,
+      "name": "秦牧云",
+      "img": "../../../../static/images/photo/car2.jpeg",
+      "address": "薇草俱乐部09栋302"
+    },
+    {
+      "id": 4,
+      "mark": 1,
+      "name": "郭少",
+      "img": "../../../../static/images/photo/person2.jpg",
+      "address": "嘉泰花园20栋502"
+    },
+    {
+      "id": 5,
+      "name": "赵杨",
+      "img": "../../../../static/images/photo/car3.jpg",
+      "address": "霸图俱乐部"
+    },
+    {
+      "id": 6,
+      "mark": 1,
+      "name": "刘小别",
+      "img": "../../../../static/images/photo/person1.jpg",
+      "address": "玉田小区20栋502"
+    }
+  ]
+}
